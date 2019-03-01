@@ -4,6 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 
+
 %\definecolor{color1}{rgb}{015,0.65,0}% primary scheme color
 
 
@@ -46,14 +47,14 @@
 \firstname{Nicolas}
 \familyname{Deparis} 
 
-\title{PhD student}
+\title{Research engineer}
 \address{11 rue de l'universite}{67000 Strasbourg, France}
 \mobile{+33~(0)6~07~49~65~85}
 %\phone{(000) 111 1112}
 %\fax{(000) 111 1113}
 \email{nicolas.deparis@astro.unistra.fr}
-\homepage{https://github.com/NicolasDeparis}
-\extrainfo{DOB 24/05/1986 - 31 years old}
+\homepage{github.com/NicolasDeparis}
+\extrainfo{DOB 24/05/1986 - 33 years old}
 
 %\quote{}
 
@@ -84,6 +85,52 @@
 %\end{itemize}
 
 %\vspace{30pt}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{Experience}
+
+\cventry
+{Observatoire Astronomique de Strasbourg/CNRS}
+{Scientific software developer}
+{Fixed-term contract}
+{2018-Present}
+{}
+{}
+{Develloping the SVOM MXT Scientific pipeline using microservice architecture}
+
+
+\cventry
+{Observatoire Astronomique de Strasbourg/CNRS}
+{6 months}
+{Fixed-term contract}
+{2014}
+{}
+{}
+{Implementing stellar formation in a RHD cosmological code}
+
+%\cventry
+%{Observatoire Astronomique de Strasbourg}
+%{3 months}
+%{Master Internship}
+%{2011}
+%{}
+%{}
+%{Study of the cosmological tidal field with N-body simulation. %\newline{}
+%Programming a multigrid algorithm to solve Poisson equation on GPU}
+
+%\cventry
+%{2010}
+%{4 weeks }
+%{Master 1 training}
+%{Observatoire Astronomique de Strasbourg}
+%{}
+%{}
+%{Study of the Epoch of Reionization with radiative transfer simulation. \newline 
+%Integrating multi-wavelength capability in the \aton code}
+
+%\cventry{2007}{Stage de 10 semaines}{Espace Info Énergie de Saint Dié des Vosges -- avec Phillipe Mangenot}{Étude énergétique du bâtiment du Centre Permanent d'Initiative à l’Environnement de Lusse}{Modélisation thermique du bâtiment, relevé et étude des points de consommations (eau, gaz, électricité), proposition de solutions}{}
 
 
 %----------------------------------------------------------------------------------------
@@ -132,42 +179,6 @@
 
 
 
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-\section{Experience}
-
-\cventry
-{Observatoire Astronomique de Strasbourg/CNRS}
-{6 months}
-{Fixed-term contract}
-{2014}
-{}
-{}
-{Implementing stellar formation in a RHD cosmological code}
-
-%\cventry
-%{Observatoire Astronomique de Strasbourg}
-%{3 months}
-%{Master Internship}
-%{2011}
-%{}
-%{}
-%{Study of the cosmological tidal field with N-body simulation. %\newline{}
-%Programming a multigrid algorithm to solve Poisson equation on GPU}
-
-%\cventry
-%{2010}
-%{4 weeks }
-%{Master 1 training}
-%{Observatoire Astronomique de Strasbourg}
-%{}
-%{}
-%{Study of the Epoch of Reionization with radiative transfer simulation. \newline 
-%Integrating multi-wavelength capability in the \aton code}
-
-%\cventry{2007}{Stage de 10 semaines}{Espace Info Énergie de Saint Dié des Vosges -- avec Phillipe Mangenot}{Étude énergétique du bâtiment du Centre Permanent d'Initiative à l’Environnement de Lusse}{Modélisation thermique du bâtiment, relevé et étude des points de consommations (eau, gaz, électricité), proposition de solutions}{}
-
 % %----------------------------------------------------------------------------------------
 % %	COMPUTER SKILLS SECTION
 % %----------------------------------------------------------------------------------------
@@ -201,27 +212,14 @@
 % \cvlistdoubleitem{Voyages}{Photographie}
 
 
-\nocite{*}
-\renewcommand\refname{Publications}
-\bibliographystyle{ieeetr}
-\bibliography{biblio.bib}
 
 
-\clearpage
 
-\section{Computing skills}
-
-\cvitem{Languages}{Python, C/C++, Fortran, Java}
-\cvitem{API}{MPI,CUDA,OpenMP,HDF5,OpenGL}
-\cvitem{Tools}{Git, Valgrind}
-%\cvitem{Others}{Photoshop, Blender, Unreal Engine 4}
-\cvitem{Known HPC centers}{PRACE TGCC Curie (Fance), PRACE CINES Occigen (France), OLCF Titan (USA) }
-
-
-%\vspace{30pt}
 
 
 \section*{Schools}
+
+\cvitem{11/2018}{IV ASTERICS VO School - Observatoire de Strasbourg, France}
 
 \cvitem{11/2016}{Parallel computing by David Brusson - Ecole Supérieure du professorat et de l'éducation, Strasbourg - France}
 \cvitem{06/2016}{Gutenberg School on Astrophysics - Stars and Galaxy Formation - Observatoire de Strasbourg, France}
@@ -230,6 +228,16 @@
 \cvitem{12/2015}{Principle of imaging for membrane systems - Institut Charles Sadron, Cronenbourg, Strasbourg, France}
 \cvitem{03/2015}{Numerical Simulations in Astrophysics - Observatoire de Strasbourg, France}
 
+\section{Computing skills}
+
+\cvitem{Languages}{Python, C/C++, Fortran, Java}
+\cvitem{Libraries}{MPI,CUDA,OpenMP,HDF5,OpenGL}
+\cvitem{Tools}{Git, docker, Valgrind}
+%\cvitem{Others}{Photoshop, Blender, Unreal Engine 4}
+\cvitem{Known HPC centers}{PRACE TGCC Curie (France), PRACE CINES Occigen (France), OLCF Titan (USA) }
+
+
+%\vspace{30pt}
 
 \section*{Conferences}
 \cvitem{06/2016}{Illuminating the Dark Ages: Quasars and Galaxies in the Reionization Epoch - MPIA Summer Conference 2016-  Heidelberg, Germany}
@@ -241,8 +249,14 @@
 %\cvitem{12/2014}{ Kick-off ORAGE / Paris, France}
 
 
-\section*{Outreach}
-\cvitem{06/2015}{Kids university - Strasbourg, France}
+%\section*{Outreach}
+%\cvitem{06/2015}{Kids university - Strasbourg, France}
+
+\nocite{*}
+\renewcommand\refname{Publications}
+\bibliographystyle{ieeetr}
+\bibliography{biblio.bib}
+
 
 \section*{References}
 
