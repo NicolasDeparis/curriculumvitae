@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+
+\bibitem{aubert_emma:_2015}
+D.~Aubert, N.~Deparis, and P.~Ocvirk, ``{EMMA}: an adaptive mesh refinement
+  cosmological simulation code with radiative transfer,'' {\em Monthly Notices
+  of the Royal Astronomical Society}, vol.~454, pp.~1012--1037, Nov. 2015.
+
+\vspace{3pt} \textbf{Submitted} \hrulefill
+
+\bibitem{deparis_stellar_2016}
+N.~Deparis, D.~Aubert, P.~Ocvirk, and N.~Gillet, ``Radiation and supernovae
+  feedback during the epoch of reionization with EMMA,'' {\em Monthly Notices
+  of the Royal Astronomical Society}, Submitted.
+
+\bibitem{aubert_z0}
+D.~Aubert, P.~Ocvirk, and N.~Deparis, ``The reionization epoch of z=0 halos,''
+  {\em The Astrophysical Journal Letters}, Submitted.
+  
+\vspace{3pt} \textbf{In preparation} \hrulefill
+
+\bibitem{deparis_lightspeed_2017}
+N.~Deparis, D.~Aubert, and P.~Ocvirk, ``Influence of reduced light speed
+  approximation on reionization fronts speed in cosmological rhd simulations,''
+  {\em Monthly Notices of the Royal Astronomical Society}, In Prep.
+
+\vspace{3pt} \textbf{Proceedings} \hrulefill
+
+\bibitem{2016sf2a.conf..399D}
+N.~{Deparis}, D.~{Aubert}, and P.~{Ocvirk}, ``{Stellar feedback during the
+  reionization with EMMA},'' in {\em SF2A-2016: Proceedings of the Annual
+  meeting of the French Society of Astronomy and Astrophysics} (C.~{Reyl{\'e}},
+  J.~{Richard}, L.~{Cambr{\'e}sy}, M.~{Deleuil}, E.~{P{\'e}contal},
+  L.~{Tresse}, and I.~{Vauglin}, eds.), pp.~399--402, Dec. 2016.
+
+\bibitem{schaaff_immersive_2015}
+A.~Schaaff, J.~Berthier, J.~Da~Rocha, N.~Deparis, S.~Derriere, P.~Gaultier,
+  R.~Houpin, J.~Normand, and P.~Ocvirk, ``Immersive 3d {Visualization} of
+  {Astronomical} {Data},'' vol.~495, p.~125, Sept. 2015.
+
+\end{thebibliography}
