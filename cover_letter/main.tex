@@ -1,0 +1,139 @@
+%\title{Example letter using the newlfm LaTeX package}
+%
+% See http://texblog.org/2013/11/11/latexs-alternative-letter-class-newlfm/
+% and http://www.ctan.org/tex-archive/macros/latex/contrib/newlfm
+% for more information.
+%
+\documentclass[12pt,stdletter,orderfromtodate,sigleft]{newlfm}
+%\usepackage{blindtext, xfrac}
+
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\@zfancyhead}{\fancy@reset}{\f@nch@reset}{}{}
+\patchcmd{\@set@em@up}{\f@ncyolh}{\f@nch@olh}{}{}
+\patchcmd{\@set@em@up}{\f@ncyolh}{\f@nch@olh}{}{}
+\patchcmd{\@set@em@up}{\f@ncyorh}{\f@nch@orh}{}{}
+\makeatother 
+
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc} 
+
+
+\usepackage{wasysym} 
+\usepackage[misc]{ifsym}
+
+
+%\footskip{30pt}
+\newlfmP{headermarginskip=-0.5in}
+
+\newlfmP{MinFoot=0pt}
+
+\newlfmP{dateskipbefore=0.5pt}
+\newlfmP{sigsize=0pt}
+\newlfmP{sigskipbefore=15pt}
+ 
+\newlfmP{Headlinewd=0pt,Footlinewd=0pt}
+ 
+\namefrom{Nicolas Deparis}
+\addrfrom{%
+	Nicolas Deparis \\
+	Observatoire Astronomique de Strasbourg \\
+    11 rue de l'universite \\
+    67000 Strasbourg \\
+%    \phone +33 (0) 3 68 85 24 74\\
+    \Letter \, nicolas.deparis@astro.unistra.fr
+}
+
+\addrto{%
+	Référence 2019-8168   
+	}
+
+\dateset{\today} 
+\greetto{Madame, Monsieur,}
+\closeline{Cordialement.}
+
+
+ 
+\begin{document}
+\begin{newlfm}
+
+
+%Mettre plus d'entrain
+
+%detailler plus mon boulot
+%rebondir plus sur l'offre
+
+Je vous adresse ma candidature pour le poste Ingénieur/chercheur génie logiciel	en calcul hautes performances pour applications scientifiques annoncé sur le site emploi.cea.fr.
+
+
+
+Durant mon doctorat, j'ai acquis une expertise tant en astrophysique qu'en développement informatique, qui me semble être tout à fait en accord avec les qualifications requises par le poste proposé.
+
+J'ai activement participé au développement d'EMMA, un code de simulation cosmologique massivement parallèle grâce auquel j'ai acquis de solides notions de conception logiciel appliquées au monde du calcul intensif. 
+%Ce code de simulation cosmologique est nu code à .
+%Ce code a particularité la une architecture hybride CPU/GPU.
+Ce code a la particularité de résoudre de manière entièrement couplée la dynamique de la matière noire, du gaz et du rayonnement sur une maille à raffinement adaptatif en tirant partie des capacités de calcul des GPU.
+%'avoir ses principaux moteurs physiques accélérés par GPU et a été utilisé pour réaliser une simulation de l'époque de réionisation résolvant de
+La réalisation, avec EMMA,  de la simulation CODA-AMR sur le calculateur Titan et aillant utilisée 32768 cœurs CPU and 4096 GPU pendant un temps équivalent d'environs 20 millions d'heures, m'a apportée une certaine expertise dans la manipulation et le traitement de grandes quantités de données.
+
+De plus, actuellement développeur du pipeline de traitement de l'instrument MXT de la mission SVOM j'ai récemment acquis
+% des connaissances dans le domaine de l'instrumentation spatiale à rayon X mais également 
+de solides compétences techniques dans le domaine du calcul hétérogène parfaitement complémentaires au domaine du HPC.
+
+
+%allant du développement pur, à la mise en place des test unitaires ou de la documentation en passant par la gestion de versions.
+
+
+
+
+%Je pense disposer d'un spectre de connaissances tant scientifiques que techniques 
+
+Conscient qu'une simple lettre puisse ne pas être suffisant pour vous convaincre de la sincérité de ma motivation, 
+%En espérant vous avoir convaincus de la sincérité de ma motivation, 
+%je vous remercie d'avance de l'intérêt que vous accorderez à ma présente demande, et 
+je reste à votre entière disposition pour vous fournir plus de renseignements.
+
+% Dans l'attente d'une réponse de votre part, veuillez recevoir mes sincères salutations.
+
+
+
+
+%I recently saw your need for a postdoctoral position in computational astrophysics on the American Astronomical Society website.
+%
+%I am a third year Ph.D. student in numerical cosmology working on a AMR radiative hydrodynamic code with D. Aubert and P. Ocvirk in Strasbourg. %, and I think I have competences than can be useful for your research.
+%%In the AAS announce you express the need of someone with knowledge of hydrodynamical grid code, 
+%I think I can offer you a good expertise on numerical simulations, from software to hardware level.
+%Moreover, in a previous work I studied the influence of stellar feedback on galactic outflows in cosmological simulations, which is in accordance with your research proposal.
+%
+%I look forward to meeting with you to discuss my qualifications in more detail.
+
+
+
+%
+%%I recently saw your need for a post-doctoral position to work within the CDS on the ASTERICS project on the Unistra website.
+%I am hereby applying for the post-doctoral position advertised on the Unistra website to work within the CDS on the ASTERICS project. 
+%
+%I am a third year Ph.D. student in numerical cosmology working on an AMR radiative hydrodynamic code with P. Ocvirk, from the CDS team, and D. Aubert, from the galaxy team.
+%%with D. Aubert and P. Ocvirk.
+%I am currently using large simulation data sets, and developing tools for their statistical analysis as well as their visualisation (see for instance my publication with A. Schaaf).
+%I have a strong numerical background and I can offer you a good expertise on technical aspects and I can actively contribute to the DADI project.
+%I am happy to have the opportunity to learn more about the VO and train other scientists by giving tutorials and communicate about the VO and CDS tools.
+%I am eager to also investigate opportunities to use the VO standards and tools in the context of my own research on galaxy formation in numerical simulations.
+%%Moreover, as I am already familiar with the VO framework, I can easily contribute to produce tutorials and communicate about it.
+%
+%My long term goal is to develop a career in computational astrophysics. Of course, as for every young researcher, this goal is nowadays rather uncertain, and I think that it is important to also keep in mind the eventuality of a career shift. This position would offer me a great opportunity to develop collaborations and to consolidate my CV for getting other future positions in the field of astrophysics, while at the same time developing new valuable skills that can be of high interest in the eventuality of a future career in data science.
+%%My long term goal is to develop a career in computational astrophysics.
+%%But it seems more and more uncertain nowadays and I still keep in mind the eventuality of a career shift.
+%%This position offers me a great opportunity to stay in the field, while at the same time creating new valuable skills.
+%%Moreover 
+%Also, as I am going to defend my Ph.D. thesis the 8th of December and that I am already integrated in the Strasbourg observatory environment, I could be productive as soon as I start the position.
+%%spend some time in the Strasbourg observatory, I already have interactions with all the CDS team members, and I can be efficient %
+%
+%I would be enthusiast to start working within the CDS team and with international ASTERICS partners.
+%I look forward to meeting with you to discuss the project in more detail.
+
+\end{newlfm}
+\end{document}
